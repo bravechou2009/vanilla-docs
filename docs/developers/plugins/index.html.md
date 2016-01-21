@@ -44,9 +44,9 @@ $this->EventArguments['DuckDodgers'] &= '24.5';
 $this->fireEvent('Kaboom');
 ```
 
-Now in our `Handler` method above, $Args would be an array of `'DuckDodgers' => '24.5'`. If we set `$Args['DuckDodgers'] = 0;` in our `handler` method, it would also be changed back in the `DiscussionsController` because it was passed by reference.
+Now in our `Handler` method above, $args would be an array of `'DuckDodgers' => '24.5'`. If we set `$args['DuckDodgers'] = 0;` in our `handler` method, it would also be changed back in the `DiscussionsController` because it was passed by reference.
 
-To invoke a handler on ALL methods, use the prefix `base` instead of an object name. Example: `base_baboom_handler`. It is best to avoid unnecessary calls by using this *very* conservatively.
+To invoke a handler on ALL methods, use the prefix `base` instead of an object name. Example: `base_kaboom_handler`. It is best to avoid unnecessary calls by using this *very* conservatively.
 
 Custom events are added on a case-by-case basis as the need arises. If you feel you need a new event, request it on the community forum.
 

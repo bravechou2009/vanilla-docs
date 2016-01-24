@@ -1,6 +1,6 @@
 <% pages = @getCollection('docs').toJSON() %>{
   "docs": [<% for page, pageIndex in pages: %>{
-    "url": "<%= page.url %>",
+    "url": "<%= if page.url is "/" then page.url else page.url + "/" %>",
     "title": "<%= page.title %>",
     "categories": [<% if page.categories: %><% for category, catIndex in page.categories: %>
       "<%= category %>"<%= ", " if catIndex isnt page.categories.length - 1 %><% end %>

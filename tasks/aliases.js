@@ -7,7 +7,7 @@ module.exports = {
   , 'less'
   , 'autoprefixer'
   , 'copy'
-  , 'uncss'
+  // , 'uncss'
   , 'useminPrepare'
   , 'concat'
   , 'uglify'

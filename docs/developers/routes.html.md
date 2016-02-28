@@ -34,7 +34,7 @@ With this route in place, users will be able to get at your hamster discussion b
 
 #### Route Types
 
-There are three different route types. They are:
+There are several different route types. They are:
 
 * **Internal** - Sends no additional headers with the request.
 * **Temporary** - Sends a 302 header with the request, telling search engines that the move is temporary, and they should not update their indexes.

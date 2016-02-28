@@ -35,7 +35,7 @@ Your plugin needs a user-facing name, and a 'slug' name without spaces or specia
 First, create a folder in the `plugin` directory, using the slug name you selected (e.g. `FancyPlugin`). Inside the folder, create a file that includes the slug name (e.g. `class.fancyplugin.php`). Next, open the file and add the plugin definition at the top, like this:
 
 ```
-<php
+<?php
 // Define the plugin:
 $PluginInfo['FancyPlugin'] = array(
    'Name' => 'Lincoln&rsquo;s Fancy Plugin',

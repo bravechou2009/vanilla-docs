@@ -6,23 +6,32 @@ categories: ["Features", "Categories"]
 
 ## Using Categories
 
-Categories are how Vanilla organizes discussions. Categories can be added, edited, deleted, sorted, and tiered via the Dashboard. Every discussion is placed in one (and only one) category. Every forum has a "Categories" page that lists its categories for navigation.
+Categories are how Vanilla organizes discussions. Categories can be added, edited, deleted, sorted, and tiered via the Dashboard. Every discussion is placed in one (and only one) category. 
+
+You can find Categories under the “Forum" menu in the Dashboard, 
+
+![http://blog.vanillaforums.com/wp-content/uploads/2013/11/Categories.png](http://blog.vanillaforums.com/wp-content/uploads/2013/11/Categories.png)
+
+At the top of the page, you will presented with the option to either add a new category, or disable them completely:
+
+!["Add Category" and "Don't use Categories" buttons in the Manage Categories section of the dashboard](http://cd8ba0b44a15c10065fd-24461f391e20b7336331d5789078af53.r23.cf1.rackcdn.com/laurasothertest.vanillaforums.com/editor/2o/34let6oiypkp.png)
+
+Disabling categories will streamline your organization, reducing the forum to the "Recent Discussion" view. You can toggle categories off on at any point, threads that were previously in categories will no longer display an indication of this. If you decide to use categories once more, any threads that were already designated to a particular section will be restored. Threads made while categories weren't in use will be placed into whatever category is at the top of your list. 
+
 
 ## Adding Categories
 
-To add a category, click the "Add Category" button at the top of the "Categories" page in the Dashboard. As you type a name, Vanilla will auto-generate the Category Url which you can customize by clicking the "edit" link next to it.
+Clicking the "Add Category" button will take you to the page pictured below: 
 
-The "Css Class" is a tool for themers to style visually-distinct categories (the specified text will be added as a class to the category's HTML wrapper). The "Photo" is a 100x100 image that will appear next to the category on the Categories page.
+![/vanilla/settings/addcategory](http://blog.vanillaforums.com/wp-content/uploads/2013/11/Add-Category.jpg)
 
-The "Display As" option can be set to "Categories" in order to turn a category into a "container" for other categories without allowing discussions to be placed in it directly.
+By default, the category url will reflect the category’s name. Clicking the edit button next to the url will allow you to change the slug. Below it, you can add a description for the category, which may not be visible on your homepage, depending on your theme. 
 
-"Hide from the Recent Discussions page" does just what it says on the tin.
+You can add a unique CSS class, which you can use in your theme to control its appearance. The specified text will be added as a class for the category's HTML wrapper.
 
-"Track points for this category separately" is an advanced feature that is deprecated in core and will be removed in a future version.
+The "Display As" drop down changes the behaivor of a category. Changing a category to a Header, 
 
-"This category has custom permissions" specifies whether this category has its own permissions set or will instead inherit the default category permissions for each role.
 
-If you have the File Uploads addon enabled, you will have a "Allow File Uploads" option.
 
 ## Category Page Layout
 

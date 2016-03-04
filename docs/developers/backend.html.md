@@ -48,7 +48,7 @@ We do not officially support this server, but information and help may be provid
 
 ### OPcache
 
-OPcache replaced APC as the preferred opcode caching solution for PHP as of 5.5. Vanilla is compatibly with OPcache and no additional configuration is necessary beyond simply enabling it.
+OPcache replaced APC as the preferred opcode caching solution for PHP as of 5.5. Vanilla is compatible with OPcache and no additional configuration is necessary beyond simply enabling it.
 
 ### Memcached
 
@@ -60,7 +60,7 @@ $Configuration['Cache']['Method'] = 'memcached';
 $Configuration['memcached']['Store'] = 'localhost';
 ```
 
-You can also specify a port for memcached.Store, e.g.: `localhost:11211`.
+You can also specify a port for memcached. Store, e.g.: `localhost:11211`.
 
 Lastly, you can optionally set Memcached options directly in your Vanilla config. Here are some example settings you may wish to use. Note that these require Memcached to be enabled on your server or else adding these to your config will cause errors.
 

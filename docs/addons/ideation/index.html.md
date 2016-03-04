@@ -21,6 +21,8 @@ To enable Ideation you'll need to:
 
 Users can add ideas to be voted on in this new category.
 
+Note that once an idea category is created, it can never be converted to a regular category and regular categories can never be converted to idea categories.
+
 ### Idea Statuses
 
 Idea statuses communicate to users what state the idea is in, and whether the idea is open to voting or not. The Ideation plugin ships with these default statuses: Active, Already Offered, Declined, Completed, In Progress, and In Review. The available statuses are completely configurable and can be changed to suit your community's needs.

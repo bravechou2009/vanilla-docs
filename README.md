@@ -8,7 +8,7 @@ If you find any problems in the docs or have a question, open an issue. Please s
 
 Once we have sufficient content, we will branch open source release versions. Master branch will reflect vanillaforums.com production.
 
-## Organization
+### Organization
 
 Picking a location for your docs is important. Moving a doc later may break its URL.
 
@@ -18,7 +18,7 @@ The "Developers" folder is for all developers implementing their own code soluti
 
 The "Cloud" folder is for clients of Vanilla Forums, Inc. and our cloud hosting product.
 
-## Formatting
+### Formatting
 
 * Every doc file must end in `.html.md` and be formatted in Markdown.
 * Use H1 (`#` in Markdown) as your top-level headings in each file (and only once).
@@ -26,7 +26,7 @@ The "Cloud" folder is for clients of Vanilla Forums, Inc. and our cloud hosting 
 * All images go within [`docs/images`](docs/images) and must be referenced absolutely (`/images/foo.png`).
 * Use descriptive image names that include their topic area and what they depict, and `hyphenate-the-names.png`.
 
-## Writing
+### Writing
 
 * Be brief but clear.
 * Carefully consider organization.

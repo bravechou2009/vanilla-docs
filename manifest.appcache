@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Thu Mar 10 2016 21:04:36 GMT+0000 (UTC)
+# Time: Thu Mar 10 2016 21:57:18 GMT+0000 (UTC)
 
 CACHE:
 addons/badges/adding-and-editing-badges/
@@ -24,6 +24,7 @@ addons/redirector/
 addons/reporting/
 addons/statistics/
 addons/vanilla-pop/
+addons/vanilla-pop/site-hub/
 addons/warnings-and-notes/adding-and-editing-user-notes/
 addons/warnings-and-notes/
 addons/warnings-and-notes/upgrading-from-warnings/
@@ -148,7 +149,7 @@ features/sso/images/jsconnect-overview.2e02e5ec.png
 images/dashboard.effaf301.png
 images/reactions-advanced.91192635.png
 images/reactions-list.248ef431.png
-search.e7d6b797.json
+search.a55ca360.json
 
 NETWORK:
 *

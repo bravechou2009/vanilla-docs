@@ -1,8 +1,10 @@
 ---
 title: Site Hub
 layout: docs
-categories: ["API"]
+categories: ["API", "Hub"]
 ---
+
+# /multisites
 
 ## Overview
 

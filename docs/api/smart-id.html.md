@@ -5,7 +5,7 @@ categories: ["API"]
 order: -1
 ---
 
-## Smart ID
+# Smart ID
 
 Many API methods take a `UserID` as one of their required parameters, for example the `/badge/give` method. Often, especially in a SSO context, the calling system will not know the native Vanilla `UserID`, but will instead know some other identifying characteristic of the user, such as their `Email`, `Username`, or SSO `ForeignID`.
 

@@ -4,6 +4,8 @@ layout: docs
 categories: ["API"]
 ---
 
+# /discussions
+
 ## /discussions/add
 
 ```http

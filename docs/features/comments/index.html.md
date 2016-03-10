@@ -4,15 +4,15 @@ layout: docs
 categories: ["Features","Comments"]
 ---
 
-### What is Vanilla Comments?
+# Vanilla Comments
 
-Vanilla Comments allows any website with a unique content id to add a commenting system that can seamlessly integrate with their Vanilla community. Comments made on content on their website will create discussions in their community. Also any comment made on the forum discussion will be reflected back under the content.
+Vanilla comments allow any website with a unique content id to add a commenting system that can seamlessly integrate with their Vanilla community. Comments made on content on their website will create discussions in their community. Also any comment made on the forum discussion will be reflected back under the content.
 
-### What is Universal Comments?
+## What are Universal Comments?
 
 We made Comment integration easy with WordPress ([learn more about that here](/features/wordpress/using-comments/).), but we also wanted to make it possible to add comments to any site where you can identify unique content. Universal Comments a way to do that.
 
-### How to use Universal Comments.
+## How to use Universal Comments.
 
 To know if you can use Vanilla Universal Comments, you need to know if your content has a unique id. What does that mean? In your URL or code, is there a way to identify the difference between two pages? For example in Magento you have a productid, in Concrete5 there is the PageId, in MODX it’s the Resource ID, and so on.
 

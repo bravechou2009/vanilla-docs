@@ -4,6 +4,8 @@ layout: docs
 categories: ["API"]
 ---
 
+# /categories
+
 ## /categories/add
 
 ```http

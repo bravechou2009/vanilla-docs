@@ -4,6 +4,8 @@ layout: docs
 categories: ["API"]
 ---
 
+# /Comments
+
 ## /comments/add
 
 ```http

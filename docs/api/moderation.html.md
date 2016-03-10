@@ -5,6 +5,8 @@ categories: ["API"]
 hidden: true
 ---
 
+#/mod
+
 ## Moderation API
 
 Details about API endpoints for moderation.
@@ -19,7 +21,7 @@ To use Simple API you need to:
 Example:
 
 ```
-GET /api/v1//mod/preapproval.json?access_token=XXXXXX HTTP/1.1
+GET /api/v1/mod/preapproval.json?access_token=XXXXXX HTTP/1.1
 Host: http://example.vanillaforums.com
 
 {

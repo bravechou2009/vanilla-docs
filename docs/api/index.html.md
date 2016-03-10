@@ -4,7 +4,7 @@ layout: docs
 categories: ["API"]
 ---
 
-## API Overview
+# API
 
 Vanilla has had a read-only ReSTful API for some time, but until now, no formal way to access any write methods. This all changes with Simple API. Now developers can access Vanilla’s write methods using an access_token configured in the dashboard.
 

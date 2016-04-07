@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Wed Mar 23 2016 15:40:14 GMT+0000 (UTC)
+# Time: Thu Apr 07 2016 20:59:00 GMT+0000 (UTC)
 
 CACHE:
 addons/badges/adding-and-editing-badges/
@@ -91,6 +91,7 @@ developers/plugins/quickstart/
 developers/routes/
 developers/tools/
 developers/troubleshooting/
+features/accessibility/
 features/categories/
 features/comments/
 features/emails/
@@ -142,7 +143,7 @@ addons/googleplus/images/Google_Developers_Console_Settings.cb7456f3.png
 addons/vanilla-pop/images/vanilla-pop.5c6255fe.png
 assets/img/logo.9bdefa97.svg
 assets/main.4f4cd87b.css
-assets/main.57c01ca6.js
+assets/main.81800ebd.js
 features/comments/images/Blog_Comments-settings.4e63784b.png
 features/comments/images/Blog_Comments_-universal_code.bdd42496.png
 features/comments/images/Blog_Comments_Universal-Code-Identifier.4deaf2e9.png
@@ -150,7 +151,7 @@ features/sso/images/jsconnect-overview.2e02e5ec.png
 images/dashboard.effaf301.png
 images/reactions-advanced.91192635.png
 images/reactions-list.248ef431.png
-search.b650ac90.json
+search.8182d867.json
 
 NETWORK:
 *

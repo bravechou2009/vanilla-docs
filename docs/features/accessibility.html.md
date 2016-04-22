@@ -10,7 +10,7 @@ We strive for maximum accessibility in our product design and take defects in it
 
 ## Overview
 
-'508 Compliance' refers to a US law that requires that US government website to be accessible to persons with disabilities (e.g. visual or physical impairment).   Accessibility means, among many other things, that a person must be able to use the website with software that reads the website aloud and/or using only a keyboard. Many private companies use the 508 guidelines to ensure websites are accessible. 
+'508 Compliance' refers to a US law that requires that US government websites to be accessible to persons with disabilities (e.g. visual or physical impairment).   Accessibility means, among many other things, that a person must be able to use the website with software that reads the website aloud and/or using only a keyboard. Many private companies use the 508 guidelines to ensure websites are accessible. 
 
 We believe Vanilla Forums to be both Section 508 and WCAG AAA compliant. 
 

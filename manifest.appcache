@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Time: Thu Apr 07 2016 21:13:21 GMT+0000 (UTC)
+# Time: Fri Apr 22 2016 15:14:09 GMT+0000 (UTC)
 
 CACHE:
 addons/badges/adding-and-editing-badges/
@@ -46,6 +46,7 @@ cloud/logging/
 cloud/migration/
 cloud/multisite/
 cloud/multisite/sync/
+cloud/releases/
 cloud/repo/
 cloud/ssl/
 cloud/staging/
@@ -151,7 +152,7 @@ features/sso/images/jsconnect-overview.2e02e5ec.png
 images/dashboard.effaf301.png
 images/reactions-advanced.91192635.png
 images/reactions-list.248ef431.png
-search.fea94a1d.json
+search.c16d7605.json
 
 NETWORK:
 *

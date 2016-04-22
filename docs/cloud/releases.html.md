@@ -52,7 +52,7 @@ We publish changes after each VIP release below, well after other plan levels ma
 
 ### New addons available:
 
-* Ideation (vote on ideas)
+* Ideation (vote on ideas) - Contact your CSM for more details
 * Microsoft Account SSO
 * CAS SSO
 * Keyword Blocker (send posts with certain keywords to mod queue)

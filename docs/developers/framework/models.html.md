@@ -113,7 +113,8 @@ public function Edit($BlogID = '') {
    $Validation = new Gdn_Validation();
    $BlogModel = new Gdn_Model('Blog', $Validation);
 
-   <strong>// Load the blog being edited $Blog = $BlogModel ->GetWhere(array('BlogID' => $BlogID)) ->FirstRow();</strong>
+   // Load the blog being edited 
+   $Blog = $BlogModel ->GetWhere(array('BlogID' => $BlogID)) ->FirstRow();
 
    // Set the BlogModel on the form.
    $this->Form->SetModel($BlogModel);

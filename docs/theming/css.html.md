@@ -6,9 +6,12 @@ categories: ["Theming"]
 
 ## Theming with CSS
 
+### Theming Hosted Vanilla
+You can overide any theming you want in the customize theme section in your Vanilla dashboard. Apply any CSS you feel is appropriate to override the current theme. If you are looking to learn more about customizing CSS in our hosted product, check out theme tips on our [blog](https://blog.vanillaforums.com/tag/fridaytips/).
+
 ### Adding CSS to your theme
 
-There are two options for adding CSS to your theme. You can completely override the existing base CSS file (style.css) or you can add an additional CSS file (custom.css) that gets added after the base CSS file.
+There are two options for adding CSS to your theme in our open source version. You can completely override the existing base CSS file (style.css) or you can add an additional CSS file (custom.css) that gets added after the base CSS file.
 
 Especially for beginners or new Vanilla users, adding an additional CSS file (custom.css) is is often preferable to completely overriding the base CSS for a number of reasons:
 

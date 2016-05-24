@@ -61,7 +61,7 @@ Thus ends the readable part of your adventure as you descend into the dry, techn
 
 - Namespace is not required.
 
-- Files MUST use only `<?php` and `<?=` tags.
+- Files MUST use only `<?php` tag.
 
 - Files MUST use only UTF-8 without BOM for PHP code.
 
@@ -141,7 +141,7 @@ All view files are excluded from this standard.  You SHOULD try to follow as man
 
 ### 2.2. PHP Tags
 
-PHP code MUST use the long `<?php ?>` tags or the short-echo `<?= ?>` tags; it
+PHP code MUST use the long `<?php ?>` tags; it
 MUST NOT use the other tag variations.
 
 ### 2.3. Character Encoding

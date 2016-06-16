@@ -5,26 +5,26 @@
 // Styleguide Modules.Masthead
 
 .masthead {
-  color: #fff;
-  background-color: @brand-primary;
-  background-image: linear-gradient(@brand-primary, darken(@brand-primary, 2%));
+    color: #fff;
+    background-color: @brand-primary;
+    background-image: linear-gradient(@brand-primary, darken(@brand-primary, 2%));
 
-  h1,
-  .h1 {
-    font-size: @font-size-h1;
-  }
-
-  > .container {
-    > *:first-child {
-      margin-top: 0;
+    h1,
+    .h1 {
+        font-size: @font-size-h1;
     }
 
-    > *:last-child {
-      margin-bottom: 0;
-    }
-  }
+    > .container {
+        > *:first-child {
+            margin-top: 0;
+        }
 
-  .navbar + & {
-    margin-top: -@navbar-margin-bottom;
-  }
+        > *:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .navbar + & {
+        margin-top: -@navbar-margin-bottom;
+    }
 }

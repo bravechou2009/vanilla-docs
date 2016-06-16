@@ -3,11 +3,11 @@
 module.exports = {
   json: {
     src: 'dist/*.json'
-  }
-, images: {
+  },
+  images: {
     src: 'dist/**/*.{svg,png,jpg}'
-  }
-, assets: {
+  },
+  assets: {
     src: 'dist/assets/**/*.{js,css}'
   }
 };

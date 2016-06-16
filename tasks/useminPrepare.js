@@ -3,6 +3,6 @@
 module.exports = {
   options: {
     dest: 'dist'
-  }
-, html: 'site/layouts/default.html.eco'
+  },
+  html: 'site/layouts/default.html.eco'
 };

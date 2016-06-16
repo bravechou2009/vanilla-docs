@@ -5,6 +5,6 @@ module.exports = {
     assetsDirs: [
       'dist'
     ]
-  }
-, html: 'dist/**/*.html'
+  },
+  html: 'dist/**/*.html'
 };

@@ -3,52 +3,52 @@
 // Styleguide Modules.Dropdowns
 
 .dropdown-menu {
-  padding: 0;
+    padding: 0;
 
-  > li {
-    &:first-child > a {
-      margin-top: -1px;
-      border-top-color: transparent;
-      .border-top-radius(@border-radius-base);
+    > li {
+        &:first-child > a {
+            margin-top: -1px;
+            border-top-color: transparent;
+            .border-top-radius(@border-radius-base);
+        }
+
+        &:last-child > a {
+            margin-bottom: -1px;
+            border-bottom-color: transparent;
+            .border-bottom-radius(@border-radius-base);
+        }
+
+        > a {
+            padding: (@line-height-computed / 2);
+            border-color: @dropdown-fallback-border;
+            border-color: @dropdown-border;
+            border-style: solid;
+            border-width: 1px 0;
+            transition: color 100ms, background-color 100ms, border-color 100ms;
+
+            &:hover,
+                &:focus {
+                padding-right: ((@line-height-computed / 2) + 1px);
+                padding-left:  ((@line-height-computed / 2) + 1px);
+                margin-right: -1px;
+                margin-left:  -1px;
+                border-color: @dropdown-link-hover-bg;
+            }
+        }
+
+        + li > a {
+            margin-top: -1px;
+            border-top-color: transparent;
+        }
     }
-
-    &:last-child > a {
-      margin-bottom: -1px;
-      border-bottom-color: transparent;
-      .border-bottom-radius(@border-radius-base);
-    }
-
-    > a {
-      padding: (@line-height-computed / 2);
-      border-color: @dropdown-fallback-border;
-      border-color: @dropdown-border;
-      border-style: solid;
-      border-width: 1px 0;
-      transition: color 100ms, background-color 100ms, border-color 100ms;
-
-      &:hover,
-      &:focus {
-        padding-right: ((@line-height-computed / 2) + 1px);
-        padding-left:  ((@line-height-computed / 2) + 1px);
-        margin-right: -1px;
-        margin-left:  -1px;
-        border-color: @dropdown-link-hover-bg;
-      }
-    }
-
-    + li > a {
-      margin-top: -1px;
-      border-top-color: transparent;
-    }
-  }
 }
 
 .dropdown-search-results {
-  width: 280px;
+    width: 280px;
 
-  .categories {
-    display: block;
-    font-size: @font-size-small;
-    font-weight: 600;
-  }
+    .categories {
+        display: block;
+        font-size: @font-size-small;
+        font-weight: 600;
+    }
 }

@@ -3,80 +3,80 @@
 // Styleguide Modules.CodeCanvas
 
 .col-fixed-left {
-  position: relative;
-  float: left;
-  width: 240px;
-  padding-right: (@grid-gutter-width / 2);
-  padding-left:  (@grid-gutter-width / 2);
+    position: relative;
+    float: left;
+    width: 240px;
+    padding-right: (@grid-gutter-width / 2);
+    padding-left:  (@grid-gutter-width / 2);
 }
 
 .col-fluid-right {
-  position: relative;
-  padding-right: (@grid-gutter-width / 2);
-  padding-left:  (@grid-gutter-width / 2);
-  margin-left: 240px;
+    position: relative;
+    padding-right: (@grid-gutter-width / 2);
+    padding-left:  (@grid-gutter-width / 2);
+    margin-left: 240px;
 }
 
 .code-canvas {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 50%;
-  padding-bottom: (@line-height-computed * 4);
-  margin-bottom: -(@line-height-computed * 4);
-  background-color: #fafafa;
-  border-left: #ddd solid 1px;
-
-  &:after {
-    display: block;
     position: absolute;
+    top: 0;
     right: 0;
     bottom: 0;
-    left: -1px;
-    height: (@line-height-computed * 4);
-    background-image: linear-gradient(fade(#f9f9f9, 0%), #f9f9f9);
-    content: " ";
-  }
+    width: 50%;
+    padding-bottom: (@line-height-computed * 4);
+    margin-bottom: -(@line-height-computed * 4);
+    background-color: #fafafa;
+    border-left: #ddd solid 1px;
+
+    &:after {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: -1px;
+        height: (@line-height-computed * 4);
+        background-image: linear-gradient(fade(#f9f9f9, 0%), #f9f9f9);
+        content: " ";
+    }
 }
 
 .code-canvas-body {
-  position: relative;
-  z-index: 10;
-  padding-top: @navbar-margin-bottom;
-  margin-top: -@navbar-margin-bottom;
-  overflow: hidden;
+    position: relative;
+    z-index: 10;
+    padding-top: @navbar-margin-bottom;
+    margin-top: -@navbar-margin-bottom;
+    overflow: hidden;
 
-  p:empty {
-    display: none;
-  }
+    p:empty {
+        display: none;
+    }
 
-  > h1,
-  > h2,
-  > h3,
-  > h4,
-  > h5,
-  > h6,
-  > p,
-  > table,
-  > ul,
-  > ol,
-  > dl,
-  > aside,
-  > pre,
-  > blockquote {
-    width: 50%;
-    padding-right: @grid-gutter-width;
-  }
+    > h1,
+    > h2,
+    > h3,
+    > h4,
+    > h5,
+    > h6,
+    > p,
+    > table,
+    > ul,
+    > ol,
+    > dl,
+    > aside,
+    > pre,
+    > blockquote {
+        width: 50%;
+        padding-right: @grid-gutter-width;
+    }
 
-  > h2 {
-    clear: both;
-  }
+    > h2 {
+        clear: both;
+    }
 
-  .push {
-    float: right;
-    clear: right;
-    width: 50%;
-    padding-left: 1px;
-  }
+    .push {
+        float: right;
+        clear: right;
+        width: 50%;
+        padding-left: 1px;
+    }
 }

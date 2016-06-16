@@ -6,8 +6,8 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   require('load-grunt-config')(grunt, {
-    configPath: path.join(process.cwd(), 'tasks')
-  , jitGrunt: {
+    configPath: path.join(process.cwd(), 'tasks'),
+    jitGrunt: {
       useminPrepare: 'grunt-usemin'
     }
   });

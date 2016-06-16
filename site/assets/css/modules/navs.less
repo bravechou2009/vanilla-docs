@@ -3,110 +3,110 @@
 // Styleguide Modules.Navs
 
 .docs-nav {
-  margin-bottom: @line-height-computed;
-  font-size: 14px;
+    margin-bottom: @line-height-computed;
+    font-size: 14px;
 
-  p {
-    margin: @line-height-computed 0 0;
-  }
-
-  /*&.affix {
-    top: 30px;
-  }
-
-  &.affix,
-  &.affix-bottom {
-    @media (max-width: @screen-xs-max) {
-      position: static;
+    p {
+        margin: @line-height-computed 0 0;
     }
 
-    @media (min-width: @screen-sm) {
-      width: round((@container-sm * (2 / @grid-columns)) - @grid-gutter-width);
+    /*&.affix {
+      top: 30px;
     }
-
-    @media (min-width: @screen-md) {
-      width: round((@container-md * (2 / @grid-columns)) - @grid-gutter-width);
-    }
-
-    // @media (min-width: @screen-lg) {
-    //   width: round((@container-lg * (2 / @grid-columns)) - @grid-gutter-width);
-    // }
-  }
-
-  &.affix-bottom {
-    position: absolute;
-  }*/
-
-  .nav {
-    &:before,
-    &:after {
-      display: none;
-    }
-
-    li {
-      margin: 4px 0;
-
+  
+    &.affix,
+    &.affix-bottom {
       @media (max-width: @screen-xs-max) {
-        margin: 10px 0;
+        position: static;
       }
-
-      > a {
-        padding: 0;
-        padding-right: 5px;
-        line-height: @line-height-computed;
-        color: #666;
-
-        &:hover,
-        &:focus {
-          color: #444;
-          background-color: transparent;
-        }
+  
+      @media (min-width: @screen-sm) {
+        width: round((@container-sm * (2 / @grid-columns)) - @grid-gutter-width);
       }
-
-      &.active > a {
-        color: @brand-primary;
-        font-weight: bold;
+  
+      @media (min-width: @screen-md) {
+        width: round((@container-md * (2 / @grid-columns)) - @grid-gutter-width);
       }
-
-      &.active > .nav {
-        display: block;
-        border-left: 1px solid @gray-lighter;
-
-        > .active > a {
-          position: relative;
-
-          &:before,
-          &:after {
-            position: absolute;
-            left: -16px;
-            content: "";
-          }
-
-          &:before {
-            top: -4px;
-            height: @line-height-computed + 8px;
-            border-left: 1px solid #fff;
-          }
-
-          &:after {
-            height: @line-height-computed;
-            border-left: 1px solid @brand-primary;
-          }
-        }
-      }
-
-      > .nav {
-        display: none;
-        padding-left: @padding-base-horizontal;
-      }
+  
+      // @media (min-width: @screen-lg) {
+      //   width: round((@container-lg * (2 / @grid-columns)) - @grid-gutter-width);
+      // }
     }
-  }
+  
+    &.affix-bottom {
+      position: absolute;
+    }*/
 
-  > .nav > li {
-    margin-top: 0;
+    .nav {
+        &:before,
+            &:after {
+            display: none;
+        }
 
-    > a {
-      font-weight: bold
+        li {
+            margin: 4px 0;
+
+            @media (max-width: @screen-xs-max) {
+                margin: 10px 0;
+            }
+
+            > a {
+                padding: 0;
+                padding-right: 5px;
+                line-height: @line-height-computed;
+                color: #666;
+
+                &:hover,
+                    &:focus {
+                    color: #444;
+                    background-color: transparent;
+                }
+            }
+
+            &.active > a {
+                color: @brand-primary;
+                font-weight: bold;
+            }
+
+            &.active > .nav {
+                display: block;
+                border-left: 1px solid @gray-lighter;
+
+                > .active > a {
+                    position: relative;
+
+                    &:before,
+                        &:after {
+                        position: absolute;
+                        left: -16px;
+                        content: "";
+                    }
+
+                    &:before {
+                        top: -4px;
+                        height: @line-height-computed + 8px;
+                        border-left: 1px solid #fff;
+                    }
+
+                    &:after {
+                        height: @line-height-computed;
+                        border-left: 1px solid @brand-primary;
+                    }
+                }
+            }
+
+            > .nav {
+                display: none;
+                padding-left: @padding-base-horizontal;
+            }
+        }
     }
-  }
+
+    > .nav > li {
+        margin-top: 0;
+
+        > a {
+            font-weight: bold
+        }
+    }
 }

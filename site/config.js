@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  srcPath: 'site'
-, outPath: 'dist'
-, documentsPaths: [
-    'documents/'
-  , '../docs/'
-  ]
-, collections: {
+  srcPath: 'site',
+  outPath: 'dist',
+  documentsPaths: [
+    'documents/',
+    '../docs/'
+  ],
+  collections: {
     docs: function () {
       return this.getCollection('html').findAllLive({
         layout: {
@@ -17,20 +17,20 @@ module.exports = {
         url: 1
       }]);
     }
-  }
-, plugins: {
+  },
+  plugins: {
     cleanurls: {
-      static: true
-    , collectionName: 'docs'
-    }
-  , shortcodeparser: {
+      static: true,
+      collectionName: 'docs'
+    },
+    shortcodeparser: {
       codes: require('./shortcodes')
     }
-  }
-, templateData: {
+  },
+  templateData: {
     site: {
-      title: 'Vanilla Documentation'
-    , url: 'http://docs.vanillaforums.com'
+      title: 'Vanilla Documentation',
+      url: 'http://docs.vanillaforums.com'
     }
   }
 };

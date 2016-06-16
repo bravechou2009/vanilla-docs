@@ -3,52 +3,52 @@
 module.exports = {
   grunt: {
     files: [
-      'Gruntfile.js'
-    , 'tasks/*.js'
+      'Gruntfile.js',
+      'tasks/*.js'
     ]
-  }
-, bower: {
+  },
+  bower: {
     files: [
       'bower.json'
-    ]
-  , tasks: [
+    ],
+    tasks: [
       'wiredep'
     ]
-  }
-, docs: {
+  },
+  docs: {
     files: [
-      'docs/**/*'
-    , 'site/documents/*'
-    , 'site/layouts/*'
-    , 'site/partials/*'
-    ]
-  , tasks: [
+      'docs/**/*',
+      'site/documents/*',
+      'site/layouts/*',
+      'site/partials/*'
+    ],
+    tasks: [
       'docs'
     ]
-  }
-, less: {
+  },
+  less: {
     files: [
       'site/assets/**/*.less'
-    ]
-  , tasks: [
+    ],
+    tasks: [
       'less'
     ]
-  }
-, js: {
+  },
+  js: {
     files: [
       'site/assets/**/*.js'
-    ]
-  , tasks: [
+    ],
+    tasks: [
       'copy:js'
     ]
-  }
-, livereload: {
+  },
+  livereload: {
     options: {
       livereload: true
-    }
-  , files: [
-      '.tmp/assets/*.{css,js}'
-    , 'dist/**/*.{html}'
+    },
+    files: [
+      '.tmp/assets/*.{css,js}',
+      'dist/**/*.{html}'
     ]
   }
 };

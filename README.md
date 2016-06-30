@@ -1,4 +1,8 @@
-# Vanilla Docs
+DOCS HAVE MOVED: https://github.com/vanilla/docs
+
+This repo is now deprecated. Please make documentation updates in the new repo and they will be online shortly. URLs will be redirected appropriately!
+
+# DEPRECATED Vanilla Docs
 
 [![Build Status](http://img.shields.io/travis/vanilla/vanilla-docs/master.svg?style=flat)](https://travis-ci.org/vanilla/vanilla-docs) [![Dependency Status](http://img.shields.io/gemnasium/vanilla/vanilla-docs.svg?style=flat)](https://gemnasium.com/vanilla/vanilla-docs) [![Open Issues](http://img.shields.io/github/issues/vanilla/vanilla-docs.svg?style=flat)](https://github.com/vanilla/vanilla-docs/issues)
 
